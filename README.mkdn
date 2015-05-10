@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/RsrchBoy/dist-zilla-stash-github.svg?branch=master)](https://travis-ci.org/RsrchBoy/dist-zilla-stash-github)
+[![Kwalitee status](http://cpants.cpanauthors.org/dist/Dist-Zilla-Stash-GitHub.png)](http://cpants.charsbar.org/dist/overview/Dist-Zilla-Stash-GitHub)
+[![Coverage Status](https://coveralls.io/repos/RsrchBoy/dist-zilla-stash-github/badge.png?branch=master)](https://coveralls.io/r/RsrchBoy/dist-zilla-stash-github?branch=master)
+
 # NAME
 
 Dist::Zilla::Stash::GitHub - The great new Dist::Zilla::Stash::GitHub!
@@ -51,6 +55,15 @@ Please see those modules/websites for more information related to this module.
 
 - [Dist::Zilla::Role::Stash::Login](https://metacpan.org/pod/Dist::Zilla::Role::Stash::Login)
 
+# BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+https://github.com/RsrchBoy/dist-zilla-stash-github/issues
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
 # AUTHOR
 
 Chris Weyl <cweyl@alumni.drew.edu>
@@ -60,7 +73,7 @@ Chris Weyl <cweyl@alumni.drew.edu>
 <div>
     <a href="https://gratipay.com/RsrchBoy/"><img src="http://img.shields.io/gratipay/RsrchBoy.svg" /></a>
     <a href="http://bit.ly/rsrchboys-wishlist"><img src="http://wps.io/wp-content/uploads/2014/05/amazon_wishlist.resized.png" /></a>
-    <a href="https://flattr.com/submit/auto?user_id=RsrchBoy&url=&title=RsrchBoy's%20CPAN%20Dist-Zilla-Stash-GitHub&tags=%22RsrchBoy's%20Dist-Zilla-Stash-GitHub%20in%20the%20CPAN%22"><img src="http://api.flattr.com/button/flattr-badge-large.png" /></a>
+    <a href="https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fdist-zilla-stash-github&title=RsrchBoy's%20CPAN%20Dist-Zilla-Stash-GitHub&tags=%22RsrchBoy's%20Dist-Zilla-Stash-GitHub%20in%20the%20CPAN%22"><img src="http://api.flattr.com/button/flattr-badge-large.png" /></a>
 </div>
 
 Please note **I do not expect to be gittip'ed or flattr'ed for this work**,
@@ -68,7 +81,7 @@ rather **it is simply a very pleasant surprise**. I largely create and release
 works like this because I need them or I find it enjoyable; however, don't let
 that stop you if you feel like it ;)
 
-[Flattr](https://flattr.com/submit/auto?user_id=RsrchBoy&url=&title=RsrchBoy&#x27;s%20CPAN%20Dist-Zilla-Stash-GitHub&tags=%22RsrchBoy&#x27;s%20Dist-Zilla-Stash-GitHub%20in%20the%20CPAN%22),
+[Flattr](https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fdist-zilla-stash-github&title=RsrchBoy&#x27;s%20CPAN%20Dist-Zilla-Stash-GitHub&tags=%22RsrchBoy&#x27;s%20Dist-Zilla-Stash-GitHub%20in%20the%20CPAN%22),
 [Gratipay](https://gratipay.com/RsrchBoy/), or indulge my
 [Amazon Wishlist](http://bit.ly/rsrchboys-wishlist)...  If and \*only\* if you so desire.
 

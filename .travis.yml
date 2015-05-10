@@ -27,6 +27,7 @@ matrix:
 branches:
     except:
         - "release/cpan"
+        - /^\d+\.\d+$/
 
 #env:
    #global:

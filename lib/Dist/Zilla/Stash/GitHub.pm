@@ -60,4 +60,6 @@ will be looked for in the usual suspect locations.
 
 Dist::Zilla::Role::Stash::Login
 
+https://github.com/settings/tokens
+
 =cut

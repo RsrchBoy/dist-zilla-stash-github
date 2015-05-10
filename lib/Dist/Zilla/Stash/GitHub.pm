@@ -33,6 +33,8 @@ __PACKAGE__->meta->make_immutable;
 !!42;
 __END__
 
+=for Pod::Coverage mvp_aliases
+
 =head1 SYNOPSIS
 
     # in your ~/.dzil/config.ini

@@ -27,6 +27,7 @@ matrix:
 branches:
     except:
         - "release/cpan"
+        # aka tags.  skip them for right now
         - /^\d+\.\d+$/
 
 #env:

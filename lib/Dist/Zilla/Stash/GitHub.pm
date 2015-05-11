@@ -6,6 +6,9 @@ use Moose;
 use namespace::autoclean;
 use MooseX::AttributeShortcuts;
 
+use Git::Sub;
+use Try::Tiny;
+
 sub mvp_aliases { { user => 'username', id => 'username', token => 'password' } }
 
 =attr username
@@ -24,8 +27,38 @@ The user's password.  Or, B<preferably>, a distinct identity token.  Seriously.
 
 =cut
 
-has username => (is => 'rwp', isa => 'Str', required => 1);
-has password => (is => 'rwp', isa => 'Str', required => 1);
+has username => (
+    is      => 'rwp',
+    isa     => 'Str',
+    builder => sub {
+        my $self = shift @_;
+
+        my $user = try { git::config 'github.user' }
+            or confess 'Cannot determine github user!';
+
+        return $user;
+    },
+);
+
+has password => (
+    is      => 'rwp',
+    isa     => 'Str',
+    builder => sub {
+        my $self = shift @_;
+
+        # look in the usual gittish places
+        my $token
+            =  try { git::config 'github.token'    }
+            || try { git::config 'github.password' }
+            || try { git::config 'github.pass'     }
+        ;
+
+        confess 'Cannot find a github token or password!'
+            unless $token;
+
+        return $token;
+    },
+);
 
 with 'Dist::Zilla::Role::Stash::Login';
 

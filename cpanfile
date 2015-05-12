@@ -1,6 +1,8 @@
 requires "Dist::Zilla::Role::Stash::Login" => "0";
+requires "Git::Sub" => "0";
 requires "Moose" => "0";
 requires "MooseX::AttributeShortcuts" => "0";
+requires "Try::Tiny" => "0";
 requires "namespace::autoclean" => "0";
 requires "perl" => "5.006";
 
